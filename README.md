@@ -12,8 +12,16 @@ What about the process of working through the vulnerability assessment did you f
 
 How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
 
+  Approaching the need for the increase in layers of security is something that should be carried out methodically and very carefully. An entire overview of the system should be done to identify areas that are in need of improvement and areas that need to be repaired. This can be done through manually inspecting the code, assessing how well the code runs, and by performing a vulnerbility assessment. This helps us understand if the code even works in the first place, what areas we can already see that need to be  improved and what vulnerabilities have been found. Once this is done we can now decide the layers of security that could/should be added including hash algorithms, secure https, additional security libraries, or even updated versions of software. 
+
 How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
+
+  To check if the code is functional and secure one needs to run the code first to identify if there are any problems. If it runs and can be run through a secure port than after refactoring a vulnerability assessment should be done. At this point we have already done one and have already gained knowledge of current vulnerabilties. Once we run the assessment again any new vulnerabilties should show in the report. If new ones were introduced then they should A) be gone through to determine false positives and actual problems and B) the code should be refactored again to fix the issues and then the cycle should be repeated. 
 
 What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
 
+  The CVE databases are very helpful and a great tool in understanding issues that may come up when performing vulnerability assessments. Additionally, making sure that best coding practices are being followed is very important and knowledge of best secure coding practices is very important as well since they cover different areas. The Maven dependency check is a tool that I will be using from now on in assignments and tasks as it can help me not only refine my code to make sure it is error free but it can help find vulnerabilties to add to the community CVE lists. 
+
 Employers sometimes ask for examples of work that you have successfully completed to demonstrate your skills, knowledge, and experience. What from this particular assignment might you want to showcase to a future employer?
+
+  This particular assignment is great in that it showcases my ability to take a system and improve it by adding my own refactored code to make it more secure while not introducing new vulnerabilties. I want to showcase that I can examine a system and decide what security layers need to be added in addition to also making sure that it stays secure and that any lingering issues or vulnerabilties can be fixed to improve performance and security. 
